@@ -1,0 +1,30 @@
+# requirements.txt - Voice Essay AI Dependencies
+
+# Core Flask web framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# AI and Voice Processing
+openai-whisper==20231117
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# HTTP requests for AI communication
+requests==2.31.0
+
+# Enhanced Text-to-Speech
+pyttsx3==2.90
+edge-tts==6.1.9
+gTTS==2.4.0
+
+# Audio processing
+numpy>=1.24.0
+soundfile>=0.12.1
+pydub==0.25.1
+
+# Development and debugging (optional)
+python-dotenv==1.0.0
+
+# Additional audio libraries for better compatibility (optional)
+librosa==0.10.1
+pygame==2.5.2
